@@ -1,0 +1,5 @@
+pip>=20.3.3
+pytest>=6.2.1
+setuptools-rust>=0.11.6
+pytest-benchmark>=3.2.3
+pandas>=1.1.5

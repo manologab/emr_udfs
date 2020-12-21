@@ -1,0 +1,55 @@
+action: GLOB, msg: packaging
+cwd: /things/work/emr_udfs
+cmd: /things/work/emr_udfs/venv/bin/python3.7 setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing emr_udfs.egg-info/PKG-INFO
+writing dependency_links to emr_udfs.egg-info/dependency_links.txt
+writing top-level names to emr_udfs.egg-info/top_level.txt
+reading manifest file 'emr_udfs.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'emr_udfs.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: check_rust_extension: missing required meta-data: url
+
+warning: check_rust_extension: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+running check_rust
+creating emr-udfs-0.0.1
+creating emr-udfs-0.0.1/emr_udfs
+creating emr-udfs-0.0.1/emr_udfs.egg-info
+creating emr-udfs-0.0.1/src
+copying files to emr-udfs-0.0.1...
+copying Cargo.toml -> emr-udfs-0.0.1
+copying MANIFEST.in -> emr-udfs-0.0.1
+copying pyproject.toml -> emr-udfs-0.0.1
+copying setup.py -> emr-udfs-0.0.1
+copying emr_udfs/__init__.py -> emr-udfs-0.0.1/emr_udfs
+copying emr_udfs.egg-info/PKG-INFO -> emr-udfs-0.0.1/emr_udfs.egg-info
+copying emr_udfs.egg-info/SOURCES.txt -> emr-udfs-0.0.1/emr_udfs.egg-info
+copying emr_udfs.egg-info/dependency_links.txt -> emr-udfs-0.0.1/emr_udfs.egg-info
+copying emr_udfs.egg-info/not-zip-safe -> emr-udfs-0.0.1/emr_udfs.egg-info
+copying emr_udfs.egg-info/top_level.txt -> emr-udfs-0.0.1/emr_udfs.egg-info
+copying src/lib.rs -> emr-udfs-0.0.1/src
+Writing emr-udfs-0.0.1/setup.cfg
+creating '.tox/dist/emr-udfs-0.0.1.zip' and adding 'emr-udfs-0.0.1' to it
+adding 'emr-udfs-0.0.1'
+adding 'emr-udfs-0.0.1/src'
+adding 'emr-udfs-0.0.1/emr_udfs'
+adding 'emr-udfs-0.0.1/emr_udfs.egg-info'
+adding 'emr-udfs-0.0.1/pyproject.toml'
+adding 'emr-udfs-0.0.1/Cargo.toml'
+adding 'emr-udfs-0.0.1/setup.py'
+adding 'emr-udfs-0.0.1/PKG-INFO'
+adding 'emr-udfs-0.0.1/setup.cfg'
+adding 'emr-udfs-0.0.1/MANIFEST.in'
+adding 'emr-udfs-0.0.1/src/lib.rs'
+adding 'emr-udfs-0.0.1/emr_udfs/__init__.py'
+adding 'emr-udfs-0.0.1/emr_udfs.egg-info/dependency_links.txt'
+adding 'emr-udfs-0.0.1/emr_udfs.egg-info/not-zip-safe'
+adding 'emr-udfs-0.0.1/emr_udfs.egg-info/top_level.txt'
+adding 'emr-udfs-0.0.1/emr_udfs.egg-info/PKG-INFO'
+adding 'emr-udfs-0.0.1/emr_udfs.egg-info/SOURCES.txt'
+removing 'emr-udfs-0.0.1' (and everything under it)
